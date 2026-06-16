@@ -1,0 +1,650 @@
+{
+  "_meta": {
+    "source": "UNC Internal Mapping.xlsx — Offerings sheet",
+    "description": "UNC Chapel Hill offerings mapped to 6 industry sector categories. Each sector lists relevant Pathways with the School/Division, Unit/Center/Dept, and specific Offering. Use sector_codes: H=Health & Life Sciences, E=Environment & Sustainability, C=Consumer & Retail, G=Government & Public Sector, T=Technology, P=Professional Services.",
+    "sector_codes": {
+      "H": "Health & Life Sciences",
+      "E": "Environment & Sustainability",
+      "C": "Consumer & Retail",
+      "G": "Government & Public Sector",
+      "T": "Technology",
+      "P": "Professional Services"
+    },
+    "sector_aliases": {
+      "health": "H",
+      "health_life_sciences": "H",
+      "pharmaceutical": "H",
+      "pharma": "H",
+      "biotechnology": "H",
+      "biotech": "H",
+      "medical_devices": "H",
+      "healthcare": "H",
+      "life_sciences": "H",
+      "clinical": "H",
+      "environment": "E",
+      "environmental": "E",
+      "sustainability": "E",
+      "energy": "E",
+      "clean_energy": "E",
+      "cleantech": "E",
+      "consumer": "C",
+      "retail": "C",
+      "consumer_retail": "C",
+      "cpg": "C",
+      "food_beverage": "C",
+      "media": "C",
+      "entertainment": "C",
+      "government": "G",
+      "public_sector": "G",
+      "defense": "G",
+      "nonprofit": "G",
+      "education": "G",
+      "technology": "T",
+      "software": "T",
+      "tech": "T",
+      "fintech": "T",
+      "ai": "T",
+      "data": "T",
+      "semiconductor": "T",
+      "professional_services": "P",
+      "finance": "P",
+      "financial_services": "P",
+      "consulting": "P",
+      "legal": "P",
+      "insurance": "P",
+      "real_estate": "P",
+      "banking": "P"
+    }
+  },
+  "sectors": {
+    "H": {
+      "label": "Health & Life Sciences",
+      "pathways": [
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Career Services",
+          "unit": "University Career Services",
+          "offerings": [
+            "On-campus recruiting & interviews",
+            "Career & internship fairs",
+            "Employer info sessions & treks"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Gillings School of Global Public Health",
+          "unit": "Gillings School of Global Public Health",
+          "offerings": [
+            "MPH / MSPH / DrPH talent pipeline",
+            "Public health practicum placements",
+            "Epidemiology & biostatistics graduates"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "School of Medicine",
+          "unit": "School of Medicine",
+          "offerings": [
+            "MD / PhD research graduates",
+            "Physician-scientist training program",
+            "Clinical research coordinator pipeline"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Eshelman School of Pharmacy",
+          "unit": "Eshelman School of Pharmacy",
+          "offerings": [
+            "PharmD / PhD pharmacy graduates",
+            "Pharmaceutical sciences talent pipeline",
+            "Drug discovery & development training"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "School of Nursing",
+          "unit": "School of Nursing",
+          "offerings": [
+            "BSN / MSN / DNP nursing graduates",
+            "Healthcare leadership pipeline"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Medicine",
+          "unit": "UNC Lineberger Comprehensive Cancer Center",
+          "offerings": [
+            "Cancer research partnerships",
+            "Oncology clinical trial collaboration",
+            "Drug discovery joint ventures"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Gillings School of Global Public Health",
+          "unit": "Carolina Population Center",
+          "offerings": [
+            "Population health research collaboration",
+            "Global health data partnerships"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Medicine",
+          "unit": "UNC Institute for Pharmacogenomics & Individualized Therapy",
+          "offerings": [
+            "Pharmacogenomics-driven precision medicine research",
+            "Drug-response research collaboration"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Eshelman School of Pharmacy",
+          "unit": "Division of Pharmacotherapy & Experimental Therapeutics",
+          "offerings": [
+            "Preclinical & clinical pharmacology research",
+            "Formulation & drug delivery collaboration"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Chemistry",
+          "offerings": [
+            "Medicinal chemistry research collaboration",
+            "Natural product discovery"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Medicine",
+          "unit": "Center for AIDS Research (CFAR)",
+          "offerings": [
+            "Infectious disease research partnership",
+            "Vaccine development collaboration"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Office of Technology Commercialization (OTC)",
+          "unit": "Office of Technology Commercialization",
+          "offerings": [
+            "IP & licensing strategy",
+            "Spinout & startup support",
+            "Joint drug-discovery ventures"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "School of Medicine",
+          "unit": "Center for Pharmacogenomics & Individualized Therapy",
+          "offerings": [
+            "AI-for-health collaboration",
+            "Precision medicine tech transfer"
+          ]
+        }
+      ]
+    },
+    "E": {
+      "label": "Environment & Sustainability",
+      "pathways": [
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Career Services",
+          "unit": "University Career Services",
+          "offerings": [
+            "On-campus recruiting & interviews",
+            "Career & internship fairs",
+            "Employer info sessions & treks"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Geography & Environment",
+          "offerings": [
+            "Environmental geography graduates",
+            "GIS & spatial analysis talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Gillings School of Global Public Health",
+          "unit": "Department of Environmental Sciences & Engineering",
+          "offerings": [
+            "Environmental health scientists pipeline",
+            "Air quality & water research graduates"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "School of Government",
+          "unit": "School of Government",
+          "offerings": [
+            "Environmental policy & regulatory graduates",
+            "Public administration pipeline"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "College of Arts & Sciences",
+          "unit": "Institute for the Environment",
+          "offerings": [
+            "Sustainability research collaboration",
+            "Climate science partnerships",
+            "Environmental data analysis"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Gillings School of Global Public Health",
+          "unit": "Department of Environmental Sciences & Engineering",
+          "offerings": [
+            "Environmental health research partnership",
+            "Pollution exposure studies"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Office of Technology Commercialization (OTC)",
+          "unit": "Office of Technology Commercialization",
+          "offerings": [
+            "Clean energy tech transfer",
+            "Environmental technology licensing"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Center for Sustainable Enterprise",
+          "offerings": [
+            "Corporate sustainability strategy consulting",
+            "ESG & impact investing research"
+          ]
+        }
+      ]
+    },
+    "C": {
+      "label": "Consumer & Retail",
+      "pathways": [
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Career Services",
+          "unit": "University Career Services",
+          "offerings": [
+            "On-campus recruiting & interviews",
+            "Career & internship fairs",
+            "Employer info sessions & treks"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Communication",
+          "offerings": [
+            "Marketing & brand communication graduates",
+            "Digital media talent pipeline"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Psychology & Neuroscience",
+          "offerings": [
+            "Consumer behavior research graduates",
+            "Human factors & UX talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Kenan-Flagler Business School",
+          "offerings": [
+            "MBA / MSBA talent pipeline",
+            "Marketing & brand management graduates",
+            "Retail & consumer goods specialization"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Dramatic Art",
+          "offerings": [
+            "Creative arts & media graduates",
+            "Digital storytelling talent"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Frank Hawkins Kenan Institute of Private Enterprise",
+          "offerings": [
+            "Consumer market research partnership",
+            "Retail analytics collaboration",
+            "Economic development partnerships"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Hussman School of Journalism & Media",
+          "unit": "Hussman School of Journalism & Media",
+          "offerings": [
+            "Media innovation collaboration",
+            "Audience research partnership",
+            "Digital journalism & content strategy"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Center for Innovation & Sustainability in Local Media (CISLM)",
+          "unit": "Center for Innovation & Sustainability in Local Media (CISLM)",
+          "offerings": [
+            "Media innovation collaboration",
+            "Local media sustainability research"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Entrepreneurship Center",
+          "offerings": [
+            "Startup incubation & mentoring",
+            "Consumer product venture development"
+          ]
+        }
+      ]
+    },
+    "G": {
+      "label": "Government & Public Sector",
+      "pathways": [
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Career Services",
+          "unit": "University Career Services",
+          "offerings": [
+            "On-campus recruiting & interviews",
+            "Career & internship fairs",
+            "Employer info sessions & treks"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Political Science",
+          "offerings": [
+            "Political science & policy graduates",
+            "Public administration talent pipeline"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Public Policy",
+          "offerings": [
+            "MPP / BA Public Policy graduates",
+            "Policy analysis & research talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "School of Government",
+          "unit": "School of Government",
+          "offerings": [
+            "MPA graduates for public sector",
+            "Local government management pipeline",
+            "Government leadership fellows program"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Philosophy",
+          "offerings": [
+            "Ethics & policy graduates",
+            "Public service values training"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Government",
+          "unit": "School of Government",
+          "offerings": [
+            "Government innovation research",
+            "Public policy evaluation partnership",
+            "Local government performance improvement"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Frank Hawkins Kenan Institute of Private Enterprise",
+          "offerings": [
+            "Public-private partnership research",
+            "Regional economic development analysis"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Gillings School of Global Public Health",
+          "unit": "Center for Health Policy & Management",
+          "offerings": [
+            "Health policy research partnership",
+            "Population health program evaluation"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "School of Government",
+          "unit": "Development Finance Initiative (DFI)",
+          "offerings": [
+            "Social-venture collaboration",
+            "Community-innovation collaboration",
+            "Economic-development partnerships"
+          ]
+        }
+      ]
+    },
+    "T": {
+      "label": "Technology",
+      "pathways": [
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Career Services",
+          "unit": "University Career Services",
+          "offerings": [
+            "On-campus recruiting & interviews",
+            "Career & internship fairs",
+            "Employer info sessions & treks"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Computer Science",
+          "offerings": [
+            "BS / MS / PhD Computer Science graduates",
+            "AI, ML & data science talent pipeline",
+            "Software engineering talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Statistics & Operations Research",
+          "offerings": [
+            "Data science & analytics graduates",
+            "Operations research talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Linguistics",
+          "offerings": [
+            "Computational linguistics graduates",
+            "NLP & language technology talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Hussman School of Journalism & Media",
+          "unit": "Hussman School of Journalism & Media",
+          "offerings": [
+            "Digital media & tech graduates",
+            "Data journalism talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Kenan-Flagler Business School",
+          "unit": "MBA Analytics & Technology Track",
+          "offerings": [
+            "Tech-focused MBA graduates",
+            "Digital transformation talent"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Computer Science",
+          "offerings": [
+            "Applied AI joint projects",
+            "Machine learning research collaboration",
+            "Cybersecurity research partnership"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Information & Library Science (SILS)",
+          "unit": "School of Information & Library Science",
+          "offerings": [
+            "Information systems research partnership",
+            "Knowledge management collaboration"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Medicine",
+          "unit": "Carolina Institute for Artificial Intelligence and Public Health (CAIPH)",
+          "offerings": [
+            "AI-for-health collaboration",
+            "Health informatics research partnership"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Kenan-Flagler Business School",
+          "unit": "UNC/NCGrowth & UISC",
+          "offerings": [
+            "Economic-development partnerships",
+            "Innovation ecosystem collaboration"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Launch Chapel Hill",
+          "unit": "Launch Chapel Hill",
+          "offerings": [
+            "Tech startup incubation",
+            "Entrepreneurship training & mentoring",
+            "Venture co-creation"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Innovate Carolina",
+          "unit": "Innovate Carolina / UNC Innovation Hub",
+          "offerings": [
+            "Corporate co-location & co-creation",
+            "Convergent Science joint research ventures",
+            "EdTech innovation collaboration",
+            "Legal-tech collaboration"
+          ]
+        }
+      ]
+    },
+    "P": {
+      "label": "Professional Services",
+      "pathways": [
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Career Services",
+          "unit": "University Career Services",
+          "offerings": [
+            "On-campus recruiting & interviews",
+            "Career & internship fairs",
+            "Employer info sessions & treks"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Kenan-Flagler Business School",
+          "offerings": [
+            "MBA talent pipeline",
+            "Finance & consulting graduates",
+            "Accounting & professional services track"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "School of Law",
+          "unit": "School of Law",
+          "offerings": [
+            "JD / LLM legal talent pipeline",
+            "Business law & transactional law graduates",
+            "IP & patent law talent"
+          ]
+        },
+        {
+          "pathway": "Talent Pipeline",
+          "school": "College of Arts & Sciences",
+          "unit": "Department of Economics",
+          "offerings": [
+            "Economics graduates for finance & consulting",
+            "Quantitative economics talent"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "Kenan-Flagler Business School",
+          "unit": "Frank Hawkins Kenan Institute of Private Enterprise",
+          "offerings": [
+            "Business strategy research partnership",
+            "Workforce & talent analytics collaboration",
+            "Economic-development partnerships"
+          ]
+        },
+        {
+          "pathway": "Research & Innovation",
+          "school": "School of Law",
+          "unit": "School of Law",
+          "offerings": [
+            "IP & licensing strategy research",
+            "Regulatory compliance collaboration"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Innovate Carolina",
+          "unit": "Innovate Carolina / UNC Innovation Hub",
+          "offerings": [
+            "Corporate co-location & co-creation",
+            "Venture co-creation",
+            "IP & licensing strategy"
+          ]
+        },
+        {
+          "pathway": "Innovation & Entrepreneurship",
+          "school": "Office of Technology Commercialization (OTC)",
+          "unit": "Office of Technology Commercialization",
+          "offerings": [
+            "IP & licensing strategy",
+            "Spinout company formation",
+            "Industry-sponsored research agreements"
+          ]
+        }
+      ]
+    }
+  }
+}
