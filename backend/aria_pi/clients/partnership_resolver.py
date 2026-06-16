@@ -27,6 +27,10 @@ from aria_pi.clients.confirmed_partners_client import (
     resolve_confirmed_partner,
     EMPTY_CONFIRMED,
 )
+from aria_pi.clients.unc_offerings_client import (
+    resolve_unc_offerings,
+    EMPTY_OFFERINGS,
+)
 
 _COI_WINDOW_YEARS = 5  # COI disclosures must be within the last N years
 
@@ -223,6 +227,7 @@ def safe_trials(company_name: str, client: ClinicalTrialsClient) -> dict:
 def resolve_company(company_name: str, sec_web_name: str = None) -> dict:
     target = sec_web_name or company_name
     confirmed = resolve_confirmed_partner(company_name)
+    unc_offerings = resolve_unc_offerings(sector) if sector else EMPTY_OFFERINGS
     pubmed, sec, web = PubMedClient(), SECEdgarClient(), WebSearchClient()
     nih_client, trials_client = NIHReporterClient(), ClinicalTrialsClient()
     results = {}
@@ -262,6 +267,7 @@ def resolve_company(company_name: str, sec_web_name: str = None) -> dict:
         "trials": trials["unc_trials"],
         "trials_total": trials["all_count"],
         "confirmed_interactions": confirmed,
+        "unc_offerings": unc_offerings,
         "mention_count": clinical["count"] + coi["count"] + len(financial["quotes"]) + len(ecosystem),
     }
 
@@ -335,6 +341,7 @@ def resolve_sector(sector: str) -> dict:
                 for c in confirmed_in_sector
             ],
         },
+        "unc_offerings": resolve_unc_offerings(sector),
     }
 
 
